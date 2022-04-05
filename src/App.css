@@ -1,5 +1,5 @@
 #favorite {
-  margin-right: 20px;
+  margin: 0 20px 0 auto;
 }
 
 #appname {
@@ -9,14 +9,13 @@
 }
 
 .dropdown {
-  display: flex;
-  justify-content: end;
+  margin: auto;
 }
 
 #copyright {
   color: white;
   font-size: smaller;
-  margin: 0 auto;
+  margin: 0 auto 0 20px;
 }
 
 #bblogo {
@@ -24,4 +23,10 @@
   width: 30px;
   border-radius: 10px;
   margin: 0 20px;
+}
+
+#nikelogo {
+  height: 30px;
+  width: 30px;
+  border-radius: 10px;
 }
